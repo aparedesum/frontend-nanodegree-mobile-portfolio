@@ -538,7 +538,7 @@ function updatePositions() {
     var scrollTopSize = (document.body.scrollTop / 1250);
     var pizzaSize = pizzaArray.length;
 
-    // Move the phase calculations because there are only 5 values
+    // move the phase calculations because there are only 5 values
     var phaseArray = [];
     for (var j = 0; j < 5; j++) {
         phaseArray.push(Math.sin(scrollTopSize + (j % 5)));
@@ -562,14 +562,14 @@ function updatePositions() {
 window.addEventListener('scroll', updatePositions);
 
 // Generates the sliding pizzas when the page loads.
-var requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame ||
-    window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-
 document.addEventListener('DOMContentLoaded', function() {
     var cols = 8;
     var s = 256;
     var movingPizzasDiv = document.querySelector("#movingPizzas1");
-    //We need just 32 pizzas, the updatePositions method moves the pizzas. 
+    
+    //we don't need 200 elements
+    //32 are ok, because their positions will be updated
+    //TODO need a dynamic way for calculatin this
     for (var i = 0; i < 32; i++) {
         var elem = document.createElement('img');
         elem.className = 'mover';
