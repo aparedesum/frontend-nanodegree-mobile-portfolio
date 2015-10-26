@@ -564,9 +564,8 @@ window.addEventListener('scroll', updatePositions);
 // Generates the sliding pizzas when the page loads.
 document.addEventListener('DOMContentLoaded', function() {
     var cols = 8;
-    var s = 256;
-    var movingPizzasDiv = document.querySelector("#movingPizzas1");
-    
+    var s = 256;    
+    var movingPizzasDiv = document.getElementById("movingPizzas1")
     //we don't need 200 elements
     //32 are ok, because their positions will be updated
     //TODO need a dynamic way for calculatin this
