@@ -573,7 +573,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var cols = screen.availWidth / s;
     var rows = screen.availHeight / s;     
     var totalOfPizzas = Math.ceil(cols * rows); 
-
+    //moved the common css propeties to pizza.html
     for (var i = 0; i < totalOfPizzas; i++) {
         var elem = document.createElement('img');
         elem.className = 'mover';
