@@ -1,7 +1,6 @@
 
 ####Part 1: How to run the project
 
-Some useful tips to help you get started:
 
 1. Check out the repository
 1. To inspect the site on your phone, you can run a local server
@@ -21,7 +20,6 @@ Some useful tips to help you get started:
 
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
 
-Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
 ####Part 2: Optimize Frames per Second in pizza.html
 
