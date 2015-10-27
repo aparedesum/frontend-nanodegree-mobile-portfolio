@@ -35,4 +35,5 @@
 2. I use pizzaArray for getting the references of the pizzas.
 3. I use getElementBy instead of querySelector.
 4. Refactor in for loops in order to reduce the calls to the DOM api wherever is possible.
-5. Improved the updatePositions method (calculating the phases in a separate for loop and using the transform property)
+5. Improved the updatePositions method (calculating the phases in a separate for loop and using the transform property).
+6. I have minified main.js into main.min.js.
