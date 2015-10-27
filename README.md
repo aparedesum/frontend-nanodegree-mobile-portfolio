@@ -29,3 +29,10 @@
 4. I have used http://www.willpeavy.com/minifier/ for reducing the html files (but not pizza.html).
 5. I have used http://javascript-minifier.com/ and http://cssminifier.com/ for reducing all the js (but not main.js) and all the css files.
 6. I have minified main.js into main.min.js and called from pizza.html.
+
+####Changes in main.js
+1. I calcule the number of pizzas (initially 200) in order to get a dynamic number of pizzas based on screen size.
+2. I use pizzaArray for getting the references of the pizzas.
+3. I use getElementBy instead of querySelector.
+4. Refactor in for loops in order to reduce the calls to the DOM api wherever is possible.
+5. Improved the updatePositions method (calculating the phases in a separate for loop and using the transform property)
