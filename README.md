@@ -23,10 +23,14 @@
 
 ####Steps for improving the performance:
 
-* I have inlined and minified the fonts (downloaded from http://fonts.googleapis.com/css?family=Open+Sans:400,700) and style.css in index.html
-* I have added the asyn attribute in the scripts tag (index.html, project-2048.html, project-mobile.html, project-webperf.html).
-* I have merged the code inside <script> (index.html, project-2048.html, project-mobile.html, project-webperf.html) into perfmatters.js
-* I have used http://www.willpeavy.com/minifier/ for reducing the html files (but not pizza.html).
-* I have used http://javascript-minifier.com/ and http://cssminifier.com/ for reducing all the js (but not main.js) and all the css files.
-* I have minified main.js into main.min.js and called from pizza.html.
+* I have inlined and minified the fonts (downloaded from http://fonts.googleapis.com/css?family=Open+Sans:400,700) and style.css in index.html.
 * 
+* I have added the asyn attribute in the scripts tag (index.html, project-2048.html, project-mobile.html, project-webperf.html).
+* 
+* I have merged the code inside <script> (index.html, project-2048.html, project-mobile.html, project-webperf.html) into perfmatters.js.
+* 
+* I have used http://www.willpeavy.com/minifier/ for reducing the html files (but not pizza.html).
+* 
+* I have used http://javascript-minifier.com/ and http://cssminifier.com/ for reducing all the js (but not main.js) and all the css files.
+* 
+* I have minified main.js into main.min.js and called from pizza.html.
