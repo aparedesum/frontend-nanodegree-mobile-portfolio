@@ -483,7 +483,7 @@ var resizePizzas = function(size) {
         var pizzaSize = pizzaElements.length;
         //we can remove dx from inside the loop because newwidth is the same for all items
         var dx = determineDx(pizzaElements[0], size);
-        var newwidth = (izzaElements[0].offsetWidth + dx) + 'px';
+        var newwidth = (pizzaElements[0].offsetWidth + dx) + 'px';
 
         for (var i = 0; i < pizzaSize; i++) {
             pizzaElements[i].style.width = newwidth;
