@@ -535,17 +535,18 @@ function updatePositions() {
     frame++;
     window.performance.mark("mark_start_frame");
 
-    var scrollTopSize = (document.body.scrollTop / 1250);
+    var scrollTopSize = document.body.scrollTop / 1250;
     var pizzaSize = pizzaArray.length;
 
     // move the phase calculations because there are only 5 values
     var phaseArray = [];
     for (var j = 0; j < 5; j++) {
         phaseArray.push(Math.sin(scrollTopSize + (j % 5)));
+        
     }
 
     for (var i = 0; i < pizzaSize; i++) {
-        pizzaArray[i].style.transform = "translateX(" + (100 * phaseArray[i % 5]) + "px)";
+        pizzaArray[i].style.transform = "translateX(" + (100 * phaseArray[i % 5]) + "px)";            
     }
 
     // User Timing API to the rescue again. Seriously, it's worth learning.
