@@ -37,3 +37,4 @@
 4. Refactor in for loops in order to reduce the calls to the DOM api wherever is possible.
 5. Improved the updatePositions method (calculating the phases in a separate for loop and using the transform property).
 6. I have minified main.js into main.min.js.
+7. I have used http://optimizilla.com/ for optimizing the images.
